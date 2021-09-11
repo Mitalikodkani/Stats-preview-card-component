@@ -1,0 +1,20 @@
+// bg-colors
+$Very-dark-blue: hsl(233, 47%, 7%);
+$Dark-desaturated-blue: hsl(244, 38%, 16%);
+$Soft-violet: hsl(277, 64%, 61%);
+
+// font-colors
+$heading: hsl(0, 0%, 100%);
+$main-para: hsla(0, 0%, 100%, 0.75);
+$stat-heading:hsla(0, 0%, 100%, 0.6);
+
+$font-size: 15px;
+
+//font
+$font-head: 'Lexend Deca', sans-serif;
+$font-para: 'Inter', sans-serif;
+
+@import "regular";
+@import "internal";
+@import "desktop";
+@import "mobile";

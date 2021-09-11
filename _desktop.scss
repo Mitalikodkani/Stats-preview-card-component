@@ -1,0 +1,84 @@
+@media screen and (max-width:1147px) {
+    .inner-container{
+        
+        margin: 120px 80px;        
+        overflow:hidden;
+        font-size: $font-size;
+        
+        .description{
+            padding: 50px 80px 70px 30px;        
+            height: 446px;        
+            
+            
+            h1{
+                width: 35%;
+                letter-spacing: 0.6px;           
+    
+            }
+            p{
+                width: 30%;
+                padding-top: 6px;
+                line-height: 1.5rem;
+                font-size: 15px;
+                
+            }
+            
+            .stats{
+                display: flex;
+                flex-direction: row;
+                column-gap: 15px;
+                padding-top: 30px;
+                padding-bottom: 80px;
+                
+                
+                h2{
+                    color: $heading;
+                }
+                p{
+                    color: $stat-heading;
+                    text-transform: uppercase;
+                    font-size: 0.8rem;
+                } 
+            }
+        }
+        
+    
+    }
+    .img{
+        position: absolute;
+        right: 0;
+        top:0;
+        margin: inherit;
+    }
+    
+    
+}
+
+
+@media screen and (max-width:975px) {
+    
+    
+
+    .inner-container{
+        margin: 120px 2px;
+    }
+
+    .description{
+        padding-left: 30px 2px 2px 5px;
+        
+        h1{
+            width: 15%;
+        }
+        p{
+            width: 10%;
+        }
+        .stats{
+            column-gap: 0.5rem;
+            p{
+                font-size: 0.5rem;
+            }
+        }
+    }
+    
+    
+}

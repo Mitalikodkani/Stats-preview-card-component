@@ -1,0 +1,88 @@
+@media screen and (max-width:375px) {
+    html{
+        width: 100ch;
+        font-size: 100%;
+        height: fit-content;
+    }
+    .container{
+        align-items: center;
+        justify-items: center;
+        width: 100%;
+        
+    }
+    .inner-container{
+        display: flex;
+        flex-direction: column-reverse;      
+        max-width: 88%;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        
+        width: 540px;
+        border-radius:7px ;        
+        margin: 50px 20px 50px 20px;
+        
+        
+        .description{
+            
+            padding: 30px 70px;
+            height: fit-content;
+            text-align: center;
+            font-size: 20px;
+            align-items: center;
+            
+            h1{
+                width: 100%;
+            }
+            
+            p{
+                padding-top: 10px;
+                line-height: 2rem;
+                font-size: 20px;
+                margin: 0;
+                width: 100%;
+            }
+           
+            .stats{
+                display: flex;
+                flex-direction: column;
+                row-gap: 50px;
+                padding-top: 40px;
+                padding-bottom: 50px;
+                align-items: center; 
+                justify-items: center;                        
+                row-gap: 30px;
+               
+                .stat{
+                    text-align: center;
+                }
+                p{
+                    padding-top: 2px;
+                    font-size: 15px;
+                    letter-spacing: 0.1rem;
+                }
+            }
+        }
+
+        .purple-tint{
+            border-radius: 7px 7px 0 0;
+        }
+        
+    
+    }
+    
+    .d-img{
+        display: none;        
+    }
+    .m-img{
+        display: block;
+        width: 100%;
+        border-radius: 7px 7px 0 0;
+    }
+    
+    .img{
+        position: relative;
+        margin: 0;
+    }
+   
+}
